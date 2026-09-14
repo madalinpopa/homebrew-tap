@@ -6,25 +6,25 @@ cask "skills" do
     end
   end
 
-  version "0.0.5"
+  version "0.0.6"
 
   on_macos do
     on_arm do
-      sha256 "8061a63647d2c99da52e2525e741230fbdd9ccb34544a5604440c5ec1c630b91"
+      sha256 "6b6d1202ffbe85abece3e350a7105d249f77ccdaee3fa5ef8c608fca388d27f1"
       url "https://github.com/madalinpopa/skills/releases/download/v#{version}/skills_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c9ff5b950f5e8d2b343604f8b877001540facfa62a13948844432fa03c7bfbfc"
+      sha256 "09526019b522314000c830b03b9a3fca47ba05a1f2c683282493ee7f63a99dc7"
       url "https://github.com/madalinpopa/skills/releases/download/v#{version}/skills_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "7db26503d07d2c4334f8f6c5201d7f4cd8cc287da8f392ed28c1cf902638c808"
+      sha256 "7c7121b5bd8d1f115d8ae0be2b65cce85c1d558cf783eb060bf7ab1b49f9fdaf"
       url "https://github.com/madalinpopa/skills/releases/download/v#{version}/skills_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "883e90de3b683b942484fafffdab23dc952b690fe141dd1b93202e11c66d7205"
+      sha256 "8bcd0e382bf3127a7836ad60cc0dc8540dc23b32dd19baf299272c6e74fbbfb3"
       url "https://github.com/madalinpopa/skills/releases/download/v#{version}/skills_#{version}_linux_amd64.tar.gz"
     end
   end
