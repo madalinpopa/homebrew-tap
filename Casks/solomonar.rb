@@ -6,25 +6,25 @@ cask "solomonar" do
     end
   end
 
-  version "0.1.4"
+  version "0.1.5"
 
   on_macos do
     on_arm do
-      sha256 "f06f4ae19250616d7e949193d5e43f8f9515feb89808b6176202c7e47b9bcee6"
+      sha256 "6372f90da17d28d5120320a2cb2175180b7be24099b675533cafe55da17556cd"
       url "https://github.com/madalinpopa/solomonar/releases/download/v#{version}/solomonar_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f5aa329fd06681a6018aa0824d5e0f8f16c48e8c916d37012eee477d5bf86b00"
+      sha256 "0e24d2af1d2ad579419330dd2f15b13f95ec233900508969a33184e6c4516ae0"
       url "https://github.com/madalinpopa/solomonar/releases/download/v#{version}/solomonar_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "08e4744995cb11447de31f97b54aa3cfcb7a431431f1a5ee855d74c445fbf714"
+      sha256 "69b40066bc2fcc18ad5a0792364de0e589442f45989f16954f55f115ba96eaec"
       url "https://github.com/madalinpopa/solomonar/releases/download/v#{version}/solomonar_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "5926b0d76bccd16f821bf67d263f580e1d48dbd43c0cf4bca312eb1ea82c1c42"
+      sha256 "ea65d37c2c2d61a7440782b30b95f6cf2122e7dbab364fc08b53b6c291f74fa6"
       url "https://github.com/madalinpopa/solomonar/releases/download/v#{version}/solomonar_#{version}_linux_amd64.tar.gz"
     end
   end
