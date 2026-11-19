@@ -8,6 +8,7 @@ brew tap madalinpopa/tap
 | Tool | Install | Description |
 | --- | --- | --- |
 | [cmt](https://github.com/madalinpopa/cmt) | `brew install --cask cmt` | Generate git commit messages with Claude or GitHub Copilot |
+| [jjr](https://github.com/madalinpopa/jjreview) | `brew install --cask jjr` | Review a jj change hunk by hunk and split it into commits |
 | [skills](https://github.com/madalinpopa/skills) | `brew install --cask skills` | Install agent skills into your projects and keep them up to date |
 | [solomonar](https://github.com/madalinpopa/solomonar) | `brew install --cask solomonar` | Spec-driven workflow for coding agents, from intent to verified code |
 
