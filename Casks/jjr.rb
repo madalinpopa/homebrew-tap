@@ -6,25 +6,25 @@ cask "jjr" do
     end
   end
 
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      sha256 "3f09d5971bed50a785e92607b5a62a9abbe8d529b53d0dfa4d784e1ce35ec498"
+      sha256 "fb78ac8696913889840f84152aae85a2859107b4eec2355bf45c1ddf21b5f122"
       url "https://github.com/madalinpopa/jjreview/releases/download/v#{version}/jjr_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "42343e9288731c03dd442b577d0821e134ae66107f0629230e4b38b51cb5bc8f"
+      sha256 "0830314e4c0f06fcfb2b189e88e2c9fb5be9f0c4214933fb122dbaba82120b99"
       url "https://github.com/madalinpopa/jjreview/releases/download/v#{version}/jjr_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "60f43a27119f372f547ec3c07149d9871cd4b0bd05708b9216ff3970d8a316ae"
+      sha256 "9027543f29c2137e2d73e047393b25b9ad2e080cf9bf60bc04c6a6e2af62fc2e"
       url "https://github.com/madalinpopa/jjreview/releases/download/v#{version}/jjr_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "2cb9e19ca1598127ea3684569c737dee4c6dbe9337f869861d28100a985126ac"
+      sha256 "90f0c2cb93e789ed48f46ed472f722522e655e78fb4ad37cbddc464f41f79f30"
       url "https://github.com/madalinpopa/jjreview/releases/download/v#{version}/jjr_#{version}_linux_amd64.tar.gz"
     end
   end
