@@ -6,25 +6,25 @@ cask "cmt" do
     end
   end
 
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      sha256 "c6423723f17ebd5399ecf756e56f9ba46d8e63946d457263357e31f79532705d"
+      sha256 "387d0c4841817d2352bf0fb6924d6a9dfef5bff988e106195445e684593e9506"
       url "https://github.com/madalinpopa/cmt/releases/download/v#{version}/cmt_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "4d18e1053846ab2a1ff71a1e87b298c52f6b2feedd172636b129f1ff1c3592ff"
+      sha256 "dc6981f155a96a25d334b6244d2ac500462b697f34d0ca819970e3e2a91f01f6"
       url "https://github.com/madalinpopa/cmt/releases/download/v#{version}/cmt_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "30aa7bf0cc2f6173094792fbc42771b79f39e7ecf4ac49cf2e597dfa34c5fa2c"
+      sha256 "6b04d54afc7778f0be44932d8a5d87ca581a1beca0bf3082a691c2283d77e53e"
       url "https://github.com/madalinpopa/cmt/releases/download/v#{version}/cmt_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "f75580073ecd93d88f0d65a9c8412287c8c930ff315ab2365720c6c413efd5d3"
+      sha256 "b1554e4f617e6aad356efcada4bc452d7014d38284417b9db518f40b57d236b9"
       url "https://github.com/madalinpopa/cmt/releases/download/v#{version}/cmt_#{version}_linux_amd64.tar.gz"
     end
   end
